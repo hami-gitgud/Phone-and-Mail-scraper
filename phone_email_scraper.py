@@ -12,7 +12,7 @@ phoneRegex = re.compile(r'''
 -                           #separator
 \d\d\d\d                    #last 4 digits
 ((ext(\.)(\s?)|x)           #extension word-part (optional)
-(\d{2,5})?                 #extension number-part (optional)
+(\d{2,5})?                  #extension number-part (optional)
 )
 ''', re.VERBOSE)
 
